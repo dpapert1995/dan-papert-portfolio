@@ -1,0 +1,156 @@
+:root {
+    --primary-color:#3f909b;
+    --secondary-color: #c1c6c9;
+    --tertiary-color: #030303;
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 56px;
+        color: var(--secondary-color);
+    }
+
+  
+    body {
+        font-family: Helvetica, Arial, sans-serif;
+        background-image: url("../images/rock-climbing-hero-image.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        justify-content: center;
+        background-position: bottom;
+        background-attachment: fixed;
+      }
+
+
+      header {
+        padding: 35px 35px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: wrap;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+        background-color: var(--tertiary-color);
+        text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+
+      }
+
+    header p {
+        font-size: 66px;
+        color: var(--primary-color);
+    }
+
+    header nav ul li{
+        display: inline;
+        align-content:flex-end;
+        list-style: none;
+        font-size: 20px;
+        margin: 5px;
+      }
+    
+
+    .about-me-content {
+        display:flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+
+    .about-me p {
+        margin: 20px;
+    }
+
+    .about-me ul li{
+        margin: 0 50px;
+    }
+
+
+    .projects-big {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        opacity: 0.5;
+    }
+
+    .run-buddy {
+        background-image: url("../images/run-buddy-background.png");
+        height:500px;
+        width: 84%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:right;
+        border: 5px solid var(--tertiary-color)
+    }
+
+    .projects-small {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        opacity: 0.5;
+    }
+
+    .horiseo {
+        background-image: url("../images/horiseo-background.png");
+        height: 300px;
+        width: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: 5px solid var(--tertiary-color)
+    }
+
+    .p1 {
+        background-image: url("../images/project-1-background.png");
+        height:fit-content;
+        height: 300px;
+        width: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: 5px solid var(--tertiary-color)
+    }
+
+    .p2 {
+        background-image: url("../images/project-2-background.png");
+        height: 300px;
+        width: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: 5px solid var(--tertiary-color)
+    }
+
+    .p3 {
+        background-image: url("../images/project-3-background.png");
+        height: 300px;
+        width: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: 5px solid var(--tertiary-color)
+    }
+
+    .contact-me {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            opacity: 0.5;
+    }
+
+
+    .contact-info {
+        height: 150px;
+        width: 150px;
+    }
