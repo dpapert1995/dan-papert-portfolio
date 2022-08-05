@@ -9,9 +9,9 @@ This is where I will showcase my projects in the future
 
 
 ## Screenshots
-![](screenshot1.png)
-![](screenshot2.png)
-![](screenshot3.png)
+![](screenshot1.PNG)
+![](screenshot2.PNG)
+![](screenshot3.PNG)
 
 ## Website
 https://dpapert1995.github.io/dan-papert-portfolio/
