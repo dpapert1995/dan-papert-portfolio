@@ -142,6 +142,11 @@
         justify-content: center;
     }
 
+    .label {
+        background-color: var(--primary-color);
+        color: var(--secondary-color)
+    }
+
     .horiseo {
         background-image: url("../images/horiseo-background.png");
         height: 300px;
