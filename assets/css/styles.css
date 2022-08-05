@@ -1,3 +1,6 @@
+/* STYLES */
+
+/* General styles with no dependencies */
 :root {
     --primary-color:#3f909b;
     --secondary-color: #c1c6c9;
@@ -17,10 +20,6 @@
         text-shadow: 0 0 5px rgb(0, 0, 0, 1);
     }
 
-    section {
-        padding: 100px;
-    }
-
     body {
         font-family: 'Arial', serif;
         background-image: url("../images/rock-climbing-hero-image.png");
@@ -32,7 +31,11 @@
         background-attachment: fixed;
       }
 
+    section {
+        padding: 100px;
+    }
 
+    /* Begin header styles */
       header {
         padding: 0px 35px;
         margin: 0px;
@@ -73,12 +76,15 @@
         transition: 0.3s;
       }
 
-        .nav a:visited, .nav a:hover {
+    .nav a:visited, .nav a:hover {
         text-decoration:none;
         color: var(--primary-color);
         font-weight: lighter;
       }
 
+    /* End header styles */
+
+    /* Begin about me styles */
     .about-me-content {
         display:flex;
         flex-direction: row;
@@ -101,7 +107,9 @@
     .about-me ul li{
         margin: 0 100px;
     }
+    /* End About Me styles */
 
+    /* Begin My Projects styles */
     .projects-big {
         display: flex;
         flex-direction: row;
@@ -167,9 +175,6 @@
         margin: 0 2.5px;
     }
 
-    .p1 h3 p{
-    }
-
     .p2 {
         background-image: url("../images/project-2-background.png");
         height: 300px;
@@ -193,7 +198,9 @@
         opacity: 0.5;
         margin: 0 2.5px;
     }
+    /* End My Projects styles */
 
+    /* Begin Contact Me styles */
     .contact-me {
             display: flex;
             flex-wrap: wrap;
@@ -214,3 +221,4 @@
         width: 200px;
         transition: 0.3s;
     }
+    /* End Contact me styles */
