@@ -17,5 +17,5 @@ This is where I will showcase my projects in the future
 https://dpapert1995.github.io/dan-papert-portfolio/
 
 ## Contribution
-Authors: Dan Papert
+Authors: Daniel Papert
 © 2022
