@@ -199,6 +199,14 @@
         margin: 0 2.5px;
     }
 
+    .p2:hover {
+        height: 330px;
+        width: 440px;
+        border: 5px solid var(--primary-color);
+        opacity: 1;
+        transition: 0.3s;
+    }
+
     .p3 {
         background-image: url("../images/project-3-background.png");
         height: 300px;
